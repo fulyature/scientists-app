@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/nba-legends-react-project/static/css/main.fd02039f.css",
-    "main.js": "/nba-legends-react-project/static/js/main.7accb2d2.js",
-    "static/media/nba.jpg": "/nba-legends-react-project/static/media/nba.15f429bce22dc6fcb3e1.jpg",
-    "index.html": "/nba-legends-react-project/index.html",
-    "main.fd02039f.css.map": "/nba-legends-react-project/static/css/main.fd02039f.css.map",
-    "main.7accb2d2.js.map": "/nba-legends-react-project/static/js/main.7accb2d2.js.map"
+    "main.css": "/scientists-app/static/css/main.f76ec69a.css",
+    "main.js": "/scientists-app/static/js/main.22c3eca9.js",
+    "static/media/Science-Logo.png": "/scientists-app/static/media/Science-Logo.14686d85831f6eb11d72.png",
+    "index.html": "/scientists-app/index.html",
+    "main.f76ec69a.css.map": "/scientists-app/static/css/main.f76ec69a.css.map",
+    "main.22c3eca9.js.map": "/scientists-app/static/js/main.22c3eca9.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd02039f.css",
-    "static/js/main.7accb2d2.js"
+    "static/css/main.f76ec69a.css",
+    "static/js/main.22c3eca9.js"
   ]
 }
