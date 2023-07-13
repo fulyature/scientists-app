@@ -1,14 +1,14 @@
-import { Container } from "react-bootstrap";
 import Header from "./components/Header";
-import ContainerCard from "./components/ContainerCard";
+import { Container } from "react-bootstrap";
 
-function App() {
+const App = () => {
   return (
-    <Container className="text-center mt-5">
-      <Header />
-      <ContainerCard />
-    </Container>
+    <div>
+      <Container className="text-center mt-5">
+        <Header />
+      </Container>
+    </div>
   );
-}
+};
 
 export default App;
