@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/scientists-app/static/css/main.f76ec69a.css",
-    "main.js": "/scientists-app/static/js/main.22c3eca9.js",
+    "main.css": "/scientists-app/static/css/main.618e51cb.css",
+    "main.js": "/scientists-app/static/js/main.93ced55d.js",
     "static/media/Science-Logo.png": "/scientists-app/static/media/Science-Logo.14686d85831f6eb11d72.png",
+    "static/media/Scient.webp": "/scientists-app/static/media/Scient.3976d85820a25f7ff386.webp",
     "index.html": "/scientists-app/index.html",
-    "main.f76ec69a.css.map": "/scientists-app/static/css/main.f76ec69a.css.map",
-    "main.22c3eca9.js.map": "/scientists-app/static/js/main.22c3eca9.js.map"
+    "main.618e51cb.css.map": "/scientists-app/static/css/main.618e51cb.css.map",
+    "main.93ced55d.js.map": "/scientists-app/static/js/main.93ced55d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f76ec69a.css",
-    "static/js/main.22c3eca9.js"
+    "static/css/main.618e51cb.css",
+    "static/js/main.93ced55d.js"
   ]
 }

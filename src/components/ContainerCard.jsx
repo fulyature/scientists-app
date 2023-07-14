@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useState } from "react";
 import { data } from "../helpers/data";
+import ScientistsCard from "./ScientistsCard";
 
 const ContainerCard = () => {
   const [search, setSearch] = useState("");
@@ -19,7 +20,7 @@ const ContainerCard = () => {
     <>
       <Form.Control
         type="search"
-        placeholder="Search Player..."
+        placeholder="Search Scientists..."
         onChange={handleClick}
       />
       <Container className="p-3 rounded-3 card-container my-3">
@@ -31,8 +32,9 @@ const ContainerCard = () => {
           className="justify-content-center g-3 "
         >
           <Col>1</Col>
-          <Col>2</Col>
-          <Col>3</Col>
+          {filteredData.map((scientists, i) => (
+            <ScientistsCard key={i} {...scientists} />
+          ))}
         </Row>
       </Container>
     </>
