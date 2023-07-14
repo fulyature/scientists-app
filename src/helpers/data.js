@@ -46,7 +46,7 @@ export const data = [
   {
     name: "Charles Darwin",
     img: "https://media-cdn.t24.com.tr/media/library/2022/11/1669619927995-yeni-proje.jpg",
-    info: ["1809-1892", "England", "biology, genetics"],
+    info: ["1809-1892", "England", "biology", "genetics"],
   },
   {
     name: "Alan Turing",
@@ -54,28 +54,36 @@ export const data = [
     info: [
       "1912-1954",
       "England",
-      "Mathematics, informatics, cryptology (cipher science)",
+      "Mathematics, informatics, cryptology",
+      "cipher-science",
     ],
   },
   {
     name: "Stephen Hawking",
     img: "https://media.nature.com/lw767/magazine-assets/d41586-018-02839-9/d41586-018-02839-9_15516176.jpg",
-    info: ["1942-2018", "England", "Mathematics, physics, cosmology"],
+    info: ["1942-2018", "England", "Mathematics", "physics", "cosmology"],
   },
 
   {
     name: "Cahit Arf",
     img: "https://www.beyruni.com/wp-content/uploads/2021/03/cahit-arf-hayati.jpg",
-    info: ["1910-1997", "Selanik", "Mathematicsi,topology"],
+    info: ["1910-1997", "Selanik", "Mathematicsi", "topology"],
   },
   {
     name: "Jale İnan",
     img: "https://i4.hurimg.com/i/hurriyet/75/0x0/61b1ba7267b0a9363423d160.jpg",
-    info: ["1914-2001", "İstanbul", "archaeologist, historian"],
+    info: ["1914-2001", "İstanbul", "archaeologist", "historian"],
   },
   {
     name: "Aziz Sancar",
-    img: "https://freshairarchive.org/sites/default/files/styles/square_800/public/2021-08/CharlesBarkley.jpg?itok=lkOGUQ2t",
-    info: ["1946", "Türkiye", "Biochemistry,Molecular Biology,DNA repair"],
+    img: "https://www.neoldu.com/d/other/02-540.jpg",
+    info: [
+      "1946",
+      "Türkiye",
+      "Biochemistry",
+      "Molecular",
+      "Biology",
+      "DNA repair",
+    ],
   },
 ];
