@@ -31,8 +31,8 @@ const ContainerCard = () => {
           lg={4}
           className="justify-content-center g-3 "
         >
-          {filteredData.map((scientists, i) => (
-            <ScientistsCard key={i} {...scientists} />
+          {filteredData.map((scientist, i) => (
+            <ScientistsCard key={i} {...scientist} />
           ))}
         </Row>
       </Container>

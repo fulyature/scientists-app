@@ -6,13 +6,26 @@ const ScientistsCard = ({ name, img, info }) => {
   const [showImage, setShowImage] = useState(true);
   return (
     <Col>
-      <Card>
+      <Card
+        onClick={() => setShowImage(!showImage)}
+        role="button"
+        className="scientist-card"
+      >
+        {/* toggle la varsa true yoksa false yapıyo */}
         {showImage ? (
-          <Card.Img variant="top" src={img} height="200px" />
+          <Card.Img
+            variant="top"
+            src={img}
+            height="180px"
+            // onClick={() => setShowImage(false)}
+          />
         ) : (
-          <ul>
+          <ul
+            className="m-auto"
+            //   onClick={() => setShowImage(true)}
+          >
             {info.map((item, i) => (
-              <li clasName="h5 text-sart" key={i}>
+              <li clasName="h5 text-sart list-unstyled " key={i}>
                 {item}
               </li>
             ))}

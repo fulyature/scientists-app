@@ -7,17 +7,17 @@ export const data = [
   {
     name: "Piri Reis",
     img: "https://i4.hurimg.com/i/hurriyet/75/0x0/61b1ba7267b0a9363423d160.jpg",
-    info: ["1465-1470", "Gelibolu", "sailor and cartographer"],
+    info: ["1465-1470", "Gelibolu", "sailor", "cartographer"],
   },
   {
     name: "Evliya Çelebi",
     img: "https://i.hbrcdn.com/haber/2020/12/03/evliya-celebi-kimdir-evliye-celebi-seyahatnamesi-13775258_7217_amp.jpg",
-    info: ["1611-1682", "İstanbul", "geography, mathematics,traveler"],
+    info: ["1611-1682", "İstanbul", "geography", "mathematics", "traveler"],
   },
   {
     name: "Marie Curie",
     img: "https://www.evrensel.net/upload/dosya/188535.jpg",
-    info: ["1867-1934", "Fransa", "physics,chemistry", "19 All Star"],
+    info: ["1867-1934", "Fransa", "physics", "chemistry", "19 All Star"],
   },
   {
     name: "Isaac Newton",
@@ -25,13 +25,14 @@ export const data = [
     info: [
       "1643-1727",
       "England",
-      "Physics, mathematics, astronomy and philosophy",
+      "Physics, mathematics, astronomy",
+      "philosophy",
     ],
   },
   {
     name: "Nikola Tesla",
     img: "https://www.muhendisbeyinler.net/wp-content/uploads/2019/09/nikola-tesla-696x445.jpg",
-    info: ["1856-1943 ", "Serbia", "physics,math,electrical", "13 All Star"],
+    info: ["1856-1943 ", "Serbia", "physics", "electrical"],
   },
   {
     name: "Alberst Einstein",
@@ -41,7 +42,7 @@ export const data = [
   {
     name: "Louis Pasteur",
     img: "https://cdn.evrimagaci.org/4JPXJ5fO6ZLfHsroFlw5W0dG-S8=/evrimagaci.org%2Fpublic%2Fcontent_media%2Fbb3457a79ff8f42b386667fbafd47276.jpg",
-    info: ["1822-1895", "France", "Microbiology and chemistry"],
+    info: ["1822-1895", "France", "Microbiology", "chemistry"],
   },
   {
     name: "Charles Darwin",
@@ -54,7 +55,9 @@ export const data = [
     info: [
       "1912-1954",
       "England",
-      "Mathematics, informatics, cryptology",
+      "Mathematics",
+      "informatics",
+      "cryptology",
       "cipher-science",
     ],
   },
